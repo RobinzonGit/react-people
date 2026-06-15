@@ -1,13 +1,15 @@
 import './Card.css';
-import gender from './icons/female.png';
 
-function Card(props) {
+function Card({ persone }) {
     return (
         <div className="card">
-            <img src={props.persone.photo} alt="Photo" />
-            <div className="name">{props.persone.name}</div>
-            <div className="age">{props.persone.age}</div>   
+            <div className="card-image-container">
+                <img src={persone.photo} alt={persone.name} />
+            </div>
+            <div className="name">{persone.name}</div>
+            <div className="age">{persone.age} лет</div>   
         </div>
     );
 }
+
 export default Card;

@@ -1,0 +1,22 @@
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Адаптация для планшетов */
+@media (max-width: 768px) {
+    .articles-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Адаптация для телефонов */
+@media (max-width: 480px) {
+    .articles-grid {
+        grid-template-columns: 1fr;
+    }
+}
