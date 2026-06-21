@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-people/static/css/main.1ca08e0e.css",
+    "main.js": "/react-people/static/js/main.2d5e74b3.js",
+    "static/media/logo.svg": "/react-people/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-people/index.html",
+    "main.1ca08e0e.css.map": "/react-people/static/css/main.1ca08e0e.css.map",
+    "main.2d5e74b3.js.map": "/react-people/static/js/main.2d5e74b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ca08e0e.css",
+    "static/js/main.2d5e74b3.js"
+  ]
+}
